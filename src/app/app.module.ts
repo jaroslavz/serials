@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {TableModule} from 'primeng/table';
 import {DropdownModule} from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MultiSelectModule} from 'primeng/multiselect';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     TableModule,
     DropdownModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MultiSelectModule
   ],
   providers: [SerialsService],
   bootstrap: [AppComponent]

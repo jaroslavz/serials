@@ -93,7 +93,7 @@
       "name": "Better Call Saul",
       "genre": ["crime", "tragedy"],
       "season": 5,
-      "network": ["AMC", "Netflix"],
+      "network": ["Netflix", "AMC"],
       "premiereDate": "02.04.2018"
     },
     {
@@ -117,7 +117,7 @@
       "name": "Better Call Saul",
       "genre": ["crime", "tragedy"],
       "season": 5,
-      "network": ["AMC", "Netflix"],
+      "network": ["Netflix", "AMC"],
       "premiereDate": "02.04.2018"
     }
   ]
