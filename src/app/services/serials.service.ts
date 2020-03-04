@@ -15,4 +15,5 @@ export class SerialsService {
   getserials(): Observable<SerialModel[]> {
     return this.http.get<SerialModel[]>(`${this.serialsUrl}`);
   }
+
 }

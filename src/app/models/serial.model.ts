@@ -3,5 +3,6 @@ export interface SerialModel {
   name: string;
   genre: string[];
   season: number;
+  network: string[];
   premiereDate: string;
 }

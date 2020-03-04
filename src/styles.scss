@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.ui-table .ui-table-tbody > tr > td {
+    text-align: center;
+
+    &:first-child {
+        text-align: left;
+    }
+  }
+
+  .ui-table .ui-table-thead > tr > th {
+      background-color: #C716DC !important;
+      color: #ffffff !important;
+  }
