@@ -1,0 +1,25 @@
+{
+  "serials": [
+    {
+      "id": "1",
+      "name": "The Terror",
+      "genre": ["horror", "drama"],
+      "season": 3,
+      "premiereDate": "20.10.2019"
+    },
+    {
+      "id": "2",
+      "name": "Preacher",
+      "genre": ["drama", "dark comedy"],
+      "season": 4,
+      "premiereDate": "15.11.2019"
+    },
+    {
+      "id": "3",
+      "name": "Better Call Saul",
+      "genre": ["crime", "tragedy"],
+      "season": 5,
+      "premiereDate": "02.04.2018"
+    }
+  ]
+}

@@ -47,3 +47,6 @@ Thumbs.db
 
 # scripts output
 /scripts/new-translation
+
+#mock-server
+/mock-server/node_modules
