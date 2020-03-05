@@ -10,6 +10,7 @@ import {DropdownModule} from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MultiSelectModule} from 'primeng/multiselect';
 import { ArrayToStringPipe } from './pipes/array-to-string.pipe';
+import {InputTextModule} from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ArrayToStringPipe } from './pipes/array-to-string.pipe';
     TableModule,
     DropdownModule,
     BrowserAnimationsModule,
-    MultiSelectModule
+    MultiSelectModule,
+    InputTextModule
   ],
   providers: [SerialsService],
   bootstrap: [AppComponent]
