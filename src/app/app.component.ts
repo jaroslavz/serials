@@ -65,8 +65,4 @@ export class AppComponent implements OnInit {
     );
   }
 
-  onlyUnique(value, index, self) {
-    return self.indexOf(value) === index;
-  }
-
 }
