@@ -3,15 +3,21 @@
     {
       "id": 1,
       "name": "The Terror",
-      "genre": ["horror", "drama"],
+      "genre": [
+        ["horror"], ["drama"]
+      ],
       "season": 3,
-      "network": ["AMC", "Netflix"],
+      "network": [
+        ["AMC"], ["Netflix"]
+      ],
       "premiereDate": "20.10.2019"
     },
     {
       "id": 2,
       "name": "Preacher",
-      "genre": ["drama", "dark comedy"],
+      "genre": [
+        ["drama"], ["dark comedy"]
+      ],
       "season": 4,
       "network": ["AMC"],
       "premiereDate": "15.11.2019"
@@ -19,7 +25,9 @@
     {
       "id": 3,
       "name": "Better Call Saul",
-      "genre": ["crime", "tragedy"],
+      "genre": [
+        ["crime"], ["tragedy"]
+      ],
       "season": 5,
       "network": ["AMC", "Netflix"],
       "premiereDate": "02.04.2018"
@@ -27,7 +35,9 @@
     {
       "id": 4,
       "name": "The Terror",
-      "genre": ["horror", "drama"],
+      "genre": [
+        ["horror"], ["drama"]
+      ],
       "season": 3,
       "network": ["AMC", "Netflix"],
       "premiereDate": "20.10.2019"
@@ -35,7 +45,9 @@
     {
       "id": 5,
       "name": "Preacher",
-      "genre": ["drama", "dark comedy"],
+      "genre": [
+        ["drama"], ["dark comedy"]
+      ],
       "season": 4,
       "network": ["AMC"],
       "premiereDate": "15.11.2019"
@@ -43,7 +55,9 @@
     {
       "id": 6,
       "name": "Better Call Saul",
-      "genre": ["crime", "tragedy"],
+      "genre": [
+        ["crime"], ["tragedy"]
+      ],
       "season": 5,
       "network": ["AMC", "Netflix"],
       "premiereDate": "02.04.2018"
@@ -51,7 +65,9 @@
     {
       "id": 7,
       "name": "The Terror",
-      "genre": ["horror", "drama"],
+      "genre": [
+        ["horror"], ["drama"]
+      ],
       "season": 3,
       "network": ["AMC", "Netflix"],
       "premiereDate": "20.10.2019"
@@ -59,7 +75,9 @@
     {
       "id": 8,
       "name": "Preacher",
-      "genre": ["drama", "dark comedy"],
+      "genre": [
+        ["drama"], ["dark comedy"]
+      ],
       "season": 4,
       "network": ["AMC"],
       "premiereDate": "15.11.2019"
@@ -67,7 +85,9 @@
     {
       "id": 9,
       "name": "Better Call Saul",
-      "genre": ["crime", "tragedy"],
+      "genre": [
+        ["crime"], ["tragedy"]
+      ],
       "season": 5,
       "network": ["AMC", "Netflix"],
       "premiereDate": "02.04.2018"
@@ -75,7 +95,9 @@
     {
       "id": 10,
       "name": "The Terror",
-      "genre": ["horror", "drama"],
+      "genre": [
+        ["horror"], ["drama"]
+    ],
       "season": 3,
       "network": ["AMC", "Netflix"],
       "premiereDate": "20.10.2019"
@@ -83,7 +105,9 @@
     {
       "id": 11,
       "name": "Preacher",
-      "genre": ["drama", "dark comedy"],
+      "genre": [
+        ["drama"], ["dark comedy"]
+      ],
       "season": 4,
       "network": ["AMC"],
       "premiereDate": "15.11.2019"
@@ -91,7 +115,9 @@
     {
       "id": 12,
       "name": "Better Call Saul",
-      "genre": ["crime", "tragedy"],
+      "genre": [
+        ["crime"], ["tragedy"]
+      ],
       "season": 5,
       "network": ["Netflix", "AMC"],
       "premiereDate": "02.04.2018"
@@ -99,7 +125,9 @@
     {
       "id": 13,
       "name": "The Terror",
-      "genre": ["horror", "drama"],
+      "genre": [
+        ["horror"], ["drama"]
+      ],
       "season": 3,
       "network": ["AMC", "Netflix"],
       "premiereDate": "20.10.2019"
@@ -107,7 +135,9 @@
     {
       "id": 14,
       "name": "Preacher",
-      "genre": ["drama", "dark comedy"],
+      "genre": [
+        ["drama"], ["dark comedy"]
+      ],
       "season": 4,
       "network": ["AMC"],
       "premiereDate": "15.11.2019"
@@ -115,7 +145,9 @@
     {
       "id": 15,
       "name": "Better Call Saul",
-      "genre": ["crime", "tragedy"],
+      "genre": [
+        ["crime"], ["tragedy"]
+      ],
       "season": 5,
       "network": ["Netflix", "AMC"],
       "premiereDate": "02.04.2018"

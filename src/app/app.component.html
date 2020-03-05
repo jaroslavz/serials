@@ -23,8 +23,14 @@
     </ng-template>
     <ng-template pTemplate="body" let-serial let-columns="columns">
         <tr>
-            <td>{{serial['name']}}
-                <span class="badge badge-success">{{serial.genre | arrayToStringPipe}}</span>
+            <td>{{serial['name']}}<br>
+                <ng-container *ngFor="let genre of serial.genre">
+                    <span class="badge badge-success" *ngIf="genre=='crime'">{{genre}}</span>
+                    <span class="badge badge-primary" *ngIf="genre=='tragedy'">{{genre}}</span>
+                    <span class="badge badge-secondary" *ngIf="genre=='dark comedy'">{{genre}}</span>
+                    <span class="badge badge-warning" *ngIf="genre=='drama'">{{genre}}</span>
+                    <span class="badge badge-danger" *ngIf="genre=='horror'">{{genre}}</span>
+                </ng-container>
             </td>
             <td>{{serial['season']}}</td>
             <td>{{serial['network'] | arrayToStringPipe}}</td>
