@@ -23,10 +23,12 @@
     </ng-template>
     <ng-template pTemplate="body" let-serial let-columns="columns">
         <tr>
-            <td *ngFor="let col of columns">
-                {{serial[col.field]}}
-                <span class="badge badge-success" *ngIf="col.field==='name'">{{serial.genre.join(', ')}}</span>
+            <td>{{serial['name']}}
+                <span class="badge badge-success">{{serial.genre | arrayToStringPipe}}</span>
             </td>
+            <td>{{serial['season']}}</td>
+            <td>{{serial['network'] | arrayToStringPipe}}</td>
+            <td>{{serial['premiereDate']}}</td>
         </tr>
     </ng-template>
 </p-table>

@@ -9,10 +9,12 @@ import {TableModule} from 'primeng/table';
 import {DropdownModule} from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MultiSelectModule} from 'primeng/multiselect';
+import { ArrayToStringPipe } from './pipes/array-to-string.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArrayToStringPipe
   ],
   imports: [
     BrowserModule,
