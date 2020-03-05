@@ -6,7 +6,7 @@
             <th *ngFor="let col of columns" [pSortableColumn]="col.field" [ngSwitch]="col.field">
                 <!-- Filters section -->
                 <input *ngSwitchCase="'name'" pInputText type="text" placeholder="Name" class="ui-column-filter"
-                    style="width: 100%;" (input)="dt.filter($event.target.value, col.field, 'startsWith')">
+                    style="width: 100%;" (input)="dt.filter($event.target.value, col.field, 'contains')">
                 <input *ngSwitchCase="'season'" pInputText type="text" placeholder="Season" class="ui-column-filter"
                     style="width: 100%;" (input)="dt.filter($event.target.value, col.field, 'startsWith')">
                 <p-multiSelect *ngSwitchCase="'network'" [options]="networks" [filter]="true"
