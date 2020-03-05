@@ -9,8 +9,12 @@
                     style="width: 100%;" (input)="dt.filter($event.target.value, col.field, 'startsWith')">
                 <input *ngSwitchCase="'season'" pInputText type="text" placeholder="Season" class="ui-column-filter"
                     style="width: 100%;" (input)="dt.filter($event.target.value, col.field, 'startsWith')">
-                    <p-multiSelect *ngSwitchCase="'network'" [options]="networks" [filter]="true"  styleClass="ui-column-filter" [style]="{'width':'100%'}"  defaultLabel="Select a network" (onChange)="dt.filter($event.value, col.field, 'contains')"></p-multiSelect>
-                    <p-multiSelect *ngSwitchCase="'premiereDate'" [options]="years" [filter]="true"  styleClass="ui-column-filter" [style]="{'width':'100%'}"  defaultLabel="Select a year" (onChange)="dt.filter($event.value, col.field, 'contains')"></p-multiSelect>
+                <p-multiSelect *ngSwitchCase="'network'" [options]="networks" [filter]="true"
+                    styleClass="ui-column-filter" [style]="{'width':'100%'}" defaultLabel="Select a network"
+                    (onChange)="dt.filter($event.value, col.field, 'contains')"></p-multiSelect>
+                <p-multiSelect *ngSwitchCase="'premiereDate'" [options]="years" [filter]="true"
+                    styleClass="ui-column-filter" [style]="{'width':'100%'}" defaultLabel="Select a year"
+                    (onChange)="dt.filter($event.value, col.field, 'contains')"></p-multiSelect>
                 <!-- End of filters section -->
                 {{col.header}}
                 <p-sortIcon [field]="col.field"></p-sortIcon>
@@ -21,6 +25,7 @@
         <tr>
             <td *ngFor="let col of columns">
                 {{serial[col.field]}}
+                <span class="badge badge-success" *ngIf="col.field==='name'">{{serial.genre.join(', ')}}</span>
             </td>
         </tr>
     </ng-template>
