@@ -11,11 +11,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MultiSelectModule} from 'primeng/multiselect';
 import { ArrayToStringPipe } from './pipes/array-to-string.pipe';
 import {InputTextModule} from 'primeng/inputtext';
+import { SerialsListComponent } from './serials-list/serials-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArrayToStringPipe
+    ArrayToStringPipe,
+    SerialsListComponent
   ],
   imports: [
     BrowserModule,
